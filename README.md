@@ -9,6 +9,9 @@ mac平台下
 win平台下
 
     set DEBUG=myapp & npm start
+    
+
+ 访问 http://localhost:3000/login
 
 ~~~~
 nodejs 通过 cookies 实现 注册 登录 记住密码功能
