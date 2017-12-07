@@ -1,4 +1,16 @@
 
+~~~~
+npm i
+
+mac平台下
+
+    $ DEBUG=myapp npm start
+
+win平台下
+
+    set DEBUG=myapp & npm start
+
+~~~~
 nodejs 通过 cookies 实现 注册 登录 记住密码功能
 
 其中 记住密码是通过        res.cookie("user", {username: username}, {maxAge: 600000 , httpOnly: false});
